@@ -1,0 +1,24 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .links {
+    display: flex;
+    font-size: 18px;
+    width: 250px;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+    }
+  }
+}

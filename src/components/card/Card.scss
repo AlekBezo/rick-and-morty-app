@@ -1,0 +1,23 @@
+.card-container {
+  width: 550px;
+  height: 240px;
+  display: flex;
+  background-color: rgb(60, 62, 68);
+  border-radius: 15px;
+  color: white;
+  margin: 20px;
+  img {
+    border-radius: 15px;
+  }
+  .card-content {
+    padding: 15px;
+    .link {
+      color: white;
+      text-decoration: none;
+    }
+    .status {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
